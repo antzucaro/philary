@@ -2,7 +2,7 @@
             <%block name="main">
             <div class="row">
                 <div class="twelve columns">
-                    <img src="http://placehold.it/650x450" width="650px" height="450px" />
+                    <img src="images/header.png" width="720px" height="484px" />
                 </div>
             </div> <!-- ROW -->
             <div class="row">
