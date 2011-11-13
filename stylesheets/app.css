@@ -1,0 +1,37 @@
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+body {
+    background: url('../images/batthern.png');
+}
+
+#header {
+    text-shadow: 2px 2px #aaaaaa;
+}
+
+#header h1 {
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+
+/* -----------------------------------------
+   Main Page
+----------------------------------------- */
+#browselinks {
+    font-size: 25px;
+    text-shadow: 2px 2px #aaaaaa;
+    padding-top: 10px;
+}
+#browselinks dd {
+    display: block;
+    float: left;
+    padding-right: 15px;
+}
+
+
+/* -----------------------------------------
+   Page Name 2
+----------------------------------------- */
+
+
