@@ -11,11 +11,13 @@ def write_template(rt, fn):
     f.write(rt)
     f.close()
 
+# grab all of the images from the "original" folder 
 os.chdir(os.getcwd()+'/original')
 images = glob('*jpg')
 images.sort()
 os.chdir('../')
 
+# meta
 current_page = 1
 images_per_page = 24
 total_pages = ceil(float(len(images))/float(images_per_page))
@@ -31,7 +33,6 @@ for i in range(total_pages):
     end = start+images_per_page
     if end > len(images):
         end = len(images)+1
-    print "Start: {0}. End: {1}".format(start, end)
 
     # render the gallery template
     t2 = Template(filename='gallery.mako', lookup=lu)
