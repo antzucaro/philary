@@ -52,6 +52,11 @@
         </div> <!-- ROW -->
         <%block name="main">
         </%block>
+        <div class="row">
+            <div class="twelve columns">
+                <p align="center"> Site design by <a href="http://antzucaro.com">Ant</a>. </p>
+            </div>
+        </div>
 	</div> <!-- CONTAINER -->
 </body>
 </html>
