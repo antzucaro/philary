@@ -26,9 +26,9 @@
                             <dd>Browse:</dd>
                     % for i in range(total_pages):
                     % if (i+1) == current_page:
-                    <dd><span style="color:red;">${i+1}</span></dd>
+                    <dd><a href="${i+1}.html" title=""><span style="color:red;">${i+1}</span></a></dd>
                     % else:
-                    <dd>${i+1}</dd>
+                    <dd><a href="${i+1}.html" title="">${i+1}</a></dd>
                     % endif
                     % endfor
                     </dd>
