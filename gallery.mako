@@ -19,4 +19,21 @@
         % endif
         % endfor
         % endif
+        <div class="row">
+            <div class="twelve columns">
+                <div id="browselinks">
+                 <dl>
+                            <dd>Browse:</dd>
+                    % for i in range(total_pages):
+                    % if (i+1) == current_page:
+                    <dd><span style="color:red;">${i+1}</span></dd>
+                    % else:
+                    <dd>${i+1}</dd>
+                    % endif
+                    % endfor
+                    </dd>
+                </dl>
+                </div>
+            </div>
+        </div> <!-- ROW -->   
     </%block>
