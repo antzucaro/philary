@@ -1,0 +1,9 @@
+This is the source to Phil and Hilary's wedding website. I built it using Foundation by Zurb (foundation.zurb.com) using Vim, Python, Mako, and Firefox. 
+Several folders are required, all of which contain images:
+
+- original: full size images
+- small: 250x250 thumbnails
+- medium: max 650px images
+- large: max 1000px images
+
+  Once these folders are created and populated with images, run generate.py in the directory to get a web source that can be copied anywhere you see fit. Enjoy!
